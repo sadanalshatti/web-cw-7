@@ -3,6 +3,8 @@ const counter = document.querySelector(".counterButton");
 // 👇🏻 مكان النقاط count قم بتعيين القيمة صفر إلى المتغير
 // ...
 
+let count= "0" ;
+
 counter.addEventListener("click", incrementCounter);
 
 /******************************************************
@@ -12,6 +14,8 @@ counter.addEventListener("click", incrementCounter);
 
 function incrementCounter() {
   // 👇🏻 بواحد مكان النقاط count قم بزيادة قيمة
+  Count ++ ;
+
   // ...
   counter.innerHTML = count;
   // "تسوي 1 اطبع "جيد count إن كانت قيمة العداد أو
